@@ -1,0 +1,28 @@
+from:
+http://honnibal.wordpress.com/2013/12/18/a-simple-fast-algorithm-for-natural-language-dependency-parsing/
+
+example:
+>>> parser = parser.Parser()
+>>> tokens = "Set the volume to zero when I 'm in a meeting unless John 's school calls".split()
+>>> tags, heads = parser.parse(tokens)
+>>> heads
+[-1, 2, 0, 0, 3, 0, 7, 5, 7, 10, 8, 0, 13, 15, 15, 11]
+>>> for i, h in enumerate(heads): 
+...   head = tokens[heads[h]] if h >= 1 else 'None'
+...   print(tokens[i] + ' <-- ' + head])
+Set <-- None
+the <-- volume
+volume <-- Set
+to <-- Set
+zero <-- to
+when <-- Set
+I <-- 'm
+'m <-- when
+in <-- 'm
+a <-- meeting
+meeting <-- in
+unless <-- Set
+John <-- 's
+'s   <-- calls
+school <-- calls
+calls <-- unless

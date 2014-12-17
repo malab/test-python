@@ -1,0 +1,54 @@
+select n.*, s.word, s.pos, e.word, e.pos from agiria.senti_new n
+inner join mcr30.wei_spa_30_variant s
+on n.offset = s.offset and mid(synset, locate('.', synset, 1)+ 1, 1) = s.pos
+inner  join mcr30.wei_eng_30_variant e
+on n.offset = e.offset and mid(synset, locate('.', synset, 1)+ 1, 1) = e.pos;
+
+
+para traer datos de grial
+http://adimen.si.ehu.es/cgi-bin/wei/public/wei.consult.perl?item=eng-30-00005107-a&button1=Look_up&metode=Synset&pos=Adjectives&llengua=English_3.0&search=near_synonym&estructura=English_3.0&glos=Gloss&csco=Score&rels=Rels&full=Full&levin=1&eng-30=English_3.0&spa-30=Spanish_3.0
+
+en item poner el offset y previamente eng-30- y erminado en -pos(n,a,v)
+según el pos, cambiar el &pos = Adjectives
+
+de la página que recibimos
+1 - traer table (no hay forma de identificar cual de lkas 15+/- que hay)
+a continuación sacar info de, p.e. para yemení
+domains = new Array;
+domains[1]  = "anthropology";
+domains[2]  = "geography";
+printdomains(domains);
+</script>
+<font color=green> person </font>
+<script>
+sumo = new Array;
+sumo2 = new Array;
+sumo[1] = "EthnicGroup";
+sumo2[1] = "EthnicGroup";
+printsumo(sumo, sumo2);
+</script>
+<script>
+mtop = new Array;
+stop = new Array;
+mtop[1] = "1stOrderEntity";
+stop[1] = "1stOrderEntity";
+mtop[2] = "Function";
+stop[2] = "Function";
+mtop[3] = "Human";
+stop[3] = "Human";
+mtop[4] = "Living";
+stop[4] = "Living";
+mtop[5] = "Object";
+stop[5] = "Object";
+
+Después coger el segundo td (<td align=left>)
+y traer toda la información (solo texto (string)
+ahí encontraremos:
+<td align=left>
+<b>eng-30-09750770-n</b><IMG src="http://adimen.si.ehu.es/wei/img/nolock.jpeg" width="20" heigth="20"></IMG> 0 
+<font color=#A7C8E9><b> Yemeni_1 </b></font>
+<br><b>spa-30-09750770-n</b><IMG src="http://adimen.si.ehu.es/wei/img/nolock.jpeg" width="20" heigth="20"></IMG> 0 
+<font color=#006000><b> yemení_1 </b></font>
+
+y en siguiente <td>
+<td><td> <font color=#A7C8E9> a native or inhabitant of Yemen  </font><br><font color=#006000> </font> </table>

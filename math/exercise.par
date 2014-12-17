@@ -1,0 +1,206 @@
+grup-verb/top/(hay haber VMIP3S0 -) [
+  grup-sp/cc/(En en SPS00 -) [
+    sn/obj-prep/(casa casa NCFS000 -) [
+      espec-fs/espec/(la el DA0FS0 -)
+    ]
+  ]
+  coor-n/dobj/(y y CC -) [
+    sn/co-n/(perros perro NCMP000 -) [
+      numero-nopart/sn-mod/(dos 2 Z -)
+      sp-de/sp-mod/(de de SPS00 -) [
+        sn/obj-prep/(Juan juan NP00SP0 -)
+      ]
+    ]
+    sn/co-n/(cinco 5 Z -) [
+      sp-de/sp-mod/(de de SPS00 -) [
+        sn/obj-prep/(Pedro pedro NP00O00 -)
+      ]
+    ]
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(hay haber VMIP3S0 -) [
+  F-no-c/term/(¿ ¿ Fia -)
+  sn/subj/(perros perro NCMP000 -) [
+    espec-mp/espec/(Cuántos cuánto DT0MP0 -)
+  ]
+  grup-sp/cc/(en en SPS00 -) [
+    sn/obj-prep/(casa casa NCFS000 -) [
+      espec-fs/espec/(la el DA0FS0 -)
+    ]
+  ]
+  F-term/term/(? ? Fit -)
+]
+
+grup-verb/top/(compré comprar VMIS1S0 -) [
+  sadv/cc/(Ayer ayer RG -)
+  sn/dobj/(kilos kilo NCMP000 -) [
+    numero-nopart/sn-mod/(dos 2 Z -)
+    sp-de/sp-mod/(de de SPS00 -) [
+      sn/obj-prep/(garbanzos garbanzo NCMP000 -)
+    ]
+  ]
+  grup-sp/sp-obj/(a a SPS00 -) [
+    sn/obj-prep/(euros euro NCMP000 -) [
+      numero-nopart/sn-mod/(cinco 5 Z -)
+    ]
+  ]
+  sn/modnomatch/(uno uno PI0MS000 -) [
+    indef-ms/espec/(cada cada DI0CS0 -)
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(gasté gastar VMIS1S0 -) [
+  patons/dep/(me me PP1CS000 -)
+  F-no-c/term/(¿ ¿ Fia -)
+  sn/subj/(Cuánto cuánto PT0MS000 -)
+  F-term/term/(? ? Fit -)
+]
+
+grup-verb/top/(tengo tener VMIP1S0 -) [
+  grup-sp/cc/(En en SPS00 -) [
+    sn/obj-prep/(casa casa NCFS000 -)
+  ]
+  coor-n/dobj/(y y CC -) [
+    sn/co-n/(perros perro NCMP000 -) [
+      numero-nopart/sn-mod/(dos 2 Z -)
+    ]
+    sn/co-n/(gatos gato NCMP000 -) [
+      numero-nopart/sn-mod/(tres 3 Z -)
+    ]
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(tengo tener VMIP1S0 -) [
+  F-no-c/term/(¿ ¿ Fia -)
+  sn/subj/(animales animal NCMP000 -) [
+    espec-mp/espec/(Cuántos cuánto DT0MP0 -)
+  ]
+  grup-sp/sp-obj/(en en SPS00 -) [
+    sn/obj-prep/(casa casa NCFS000 -)
+  ]
+  F-term/term/(? ? Fit -)
+]
+
+grup-verb/top/(tengo tener VMIP1S0 -) [
+  grup-sp/cc/(En en SPS00 -) [
+    sn/obj-prep/(casa casa NCFS000 -)
+  ]
+  coor-n/dobj/(y y CC -) [
+    sn/co-n/(perros perro NCMP000 -) [
+      numero-nopart/sn-mod/(tres 3 Z -)
+    ]
+    Fc/term/(, , Fc -)
+    sn/co-n/(gato gato NCMS000 -) [
+      espec-ms/espec/(un uno DI0MS0 -)
+    ]
+    Fc/term/(, , Fc -)
+    sn/co-n/(mesas mesa NCFP000 -) [
+      numero-nopart/sn-mod/(dos 2 Z -)
+    ]
+    sn/co-n/(televisor televisor NCMS000 -) [
+      espec-ms/espec/(un uno DI0MS0 -)
+    ]
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(tengo tener VMIP1S0 -) [
+  F-no-c/term/(¿ ¿ Fia -)
+  sn/subj/(animales animal NCMP000 -) [
+    espec-mp/espec/(Cuántos cuánto DT0MP0 -)
+  ]
+  grup-sp/sp-obj/(en en SPS00 -) [
+    sn/obj-prep/(casa casa NCFS000 -)
+  ]
+  F-term/term/(? ? Fit -)
+]
+
+grup-verb/top/(pagué pagar VMIS1S0 -) [
+  sadv/cc/(Ayer ayer RG -)
+  sn/dobj/(euros euro NCMP000 -) [
+    numero-nopart/sn-mod/(diez 10 Z -)
+  ]
+  grup-sp/sp-obj/(por por SPS00 -) [
+    sn/obj-prep/(kilos kilo NCMP000 -) [
+      numero-nopart/sn-mod/(dos 2 Z -)
+      sp-de/sp-mod/(de de SPS00 -) [
+        sn/obj-prep/(patatas patata NCFP000 -)
+      ]
+    ]
+  ]
+  coor-n/modnomatch/(y y CC -) [
+    sn/co-n/(kilo kilo NCMS000 -) [
+      espec-ms/espec/(un uno DI0MS0 -)
+      sp-de/sp-mod/(de de SPS00 -) [
+        sn/obj-prep/(tomates tomate NCMP000 -)
+      ]
+    ]
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(costaron costar VMIS3P0 -) [
+  patons/dep/(me me PP1CS000 -)
+  sn/subj/(tomates tomate NCMP000 -) [
+    espec-mp/espec/(Los el DA0MP0 -)
+  ]
+  sn/dobj/(euros euro NCMP000 -) [
+    numero-nopart/sn-mod/(cuatro 4 Z -)
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(estaba estar VAII1S0 -) [
+  F-no-c/term/(¿ ¿ Fia -)
+  grup-sp/att/(A a SPS00 -) [
+    sn/obj-prep/(cuánto cuánto PT0MS000 -)
+  ]
+  sn/att/(kilo kilo NCMS000 -) [
+    espec-ms/espec/(el el DA0MS0 -)
+    sp-de/sp-mod/(de de SPS00 -) [
+      sn/obj-prep/(patatas patata NCFP000 -)
+    ]
+  ]
+  F-term/term/(? ? Fit -)
+]
+
+grup-verb/top/(tiene tener VMIP3S0 -) [
+  sn/subj/(Juan juan NP00SP0 -)
+  sn/dobj/(euros euro NCMP000 -) [
+    numero-nopart/sn-mod/(dos 2 Z -)
+  ]
+  sadv/cc/(más más RG -)
+  conj-subord/modnomatch/(que que CS -)
+  sn/modnomatch/(Pedro pedro NP00SP0 -) [
+    F-term/term/(. . Fp -)
+  ]
+]
+
+grup-verb/top/(tienen tener VMIP3P0 -) [
+  grup-sp/cc/(En en SPS00 -) [
+    s-a-ms/modnomatch/(total total AQ0CS0 -)
+  ]
+  coor-n/subj/(y y CC -) [
+    Fc/term/(, , Fc -)
+    sn/co-n/(Pedro pedro NP00SP0 -)
+    sn/co-n/(Juan juan NP00SP0 -)
+  ]
+  sn/dobj/(euros euro NCMP000 -) [
+    numero-nopart/sn-mod/(seis 6 Z -)
+  ]
+  F-term/term/(. . Fp -)
+]
+
+grup-verb/top/(tiene tener VMIP3S0 -) [
+  F-no-c/term/(¿ ¿ Fia -)
+  sn/subj/(euros euro NCMP000 -) [
+    espec-mp/espec/(Cuántos cuánto DT0MP0 -)
+  ]
+  sn/dobj/(Pedro pedro NP00SP0 -)
+  F-term/term/(? ? Fit -)
+]
+

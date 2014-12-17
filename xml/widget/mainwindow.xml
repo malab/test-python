@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tkmenu>
+<!--
+    copyright (c) mentions
+-->
+<tkwidget>
+        <label
+            text="hello"
+            image="^/images/hello.ppm"
+            compound="top"
+            bg="yellow"
+            fg="blue"
+            layout="pack"
+            resizable="yes"
+        />
+        <button
+            text="Quit"
+            command="@quit"
+            layout="pack"
+        />
+</tkwidget>

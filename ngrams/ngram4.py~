@@ -1,0 +1,99 @@
+from os import listdir, rename
+from os.path import join
+import re
+import mysql.connector as my
+import sys
+import time
+
+con_data = {'user':'root','password':'agm','host':'192.168.1.34', \
+            'database':'ngrams','raise_on_warnings': True, 'autocommit':True, 'buffered':True}
+
+def guarda(pal1, pal2, pal3, pal4, year, freq, nfile):
+    #Evitar poblemas con encodings raros
+    pal5 = pal1.encode('utf-8')
+    pal6 = pal2.encode('utf-8')
+    pal7 = pal3.encode('utf-8')
+    pal8 = pal4.encode('utf-8')
+    if len(pal1) == len(pal5) and len(pal2) == len(pal6) and len(pal3) == len(pal7) and len(pal4) == len(pal8):
+        t = """INSERT INTO es_ngram4 (pal1, pal2, pal3, pal4, year, freq, archivo) 
+            VALUES (\"%s\", \"%s\", \"%s\", \"%s\", %s, %s, "%s") 
+            ON DUPLICATE KEY UPDATE freq = freq + %s""" % (pal1[:40], pal2[:40], pal3[:40], pal4[:40], year, freq, nfile, freq)
+        try:
+            cur.execute(t)
+        except my.Error as er:
+            try:
+                print ("Error guardando fila", er, t)
+            except:
+                print("Error de codificación al guardar", er)
+
+
+def average_year(lineas, freq):
+    t = [int(x[4])*int(x[5]) for x in lineas]
+    return round(sum(t) / freq)
+
+def resume(lineas, nfile):
+    pal1 = lineas[0][0]
+    pal1 = pal1.replace("'", "\\'")
+    pal2 = lineas[0][1]
+    pal2 = pal2.replace("'", "\\'")
+    pal3 = lineas[0][2]
+    pal3 = pal3.replace("'", "\\'")
+    pal4 = lineas[0][3]
+    pal4 = pal4.replace("'", "\\'")        
+    freq = 0
+    for linea in lineas:
+        freq += int(linea[5])
+    year = average_year(lineas, freq)
+    # solo usar las palabras con más de xx casos en todos los años.
+    if freq >= 40:
+        guarda(pal1, pal2, pal3, pal4, year, freq, nfile)
+
+
+def lee_archivo(archivo, cur):
+    # regex = re.compile(r"(?ui)\W") #get rid of non-words/numbers
+    with open(archivo, encoding='utf-8', errors="surrogateescape") as f:
+        # l = 0
+        nfile = archivo.split('.')[0].split('-')[1] #file number in file name
+        p1 = p2 = p3 = p4 = ''
+        lineas = []
+        filas = 0
+        for linea in f:
+            linea = linea.replace('"', '')
+            linea = linea.replace("\\", "")
+            datos = linea.split()
+            if len(datos) == 8: #only 4 words/tokens plus 4 additional columns/data(year,total, volumes, pages)
+                # datos = [regex.sub("", a) for a in datos]
+                filas += 1
+                if datos[0] != p1 or datos[1] != p2 or datos[2] != p3 or datos[3] != p4: #it's a new 4gram
+                    if p1 and p2 and p3 and p4:
+                        # procesa los datos de la palabra anterior
+                        if lineas:
+                            resume(lineas, nfile)
+                    p1 = datos[0]
+                    p2 = datos[1]
+                    p3 = datos[2]
+                    p4 = datos[3]
+                    lineas = []
+                    lineas.append(datos)
+                elif filas < 10000:
+                    # si más de 10000 remite las lineas en trozos de 10000
+                    lineas.append(datos)
+                else:
+                    lineas.append(datos)
+                    if lineas:
+                        resume(lineas, nfile)
+                        filas = 0
+                        lineas = []
+            
+
+directorio = '/media/tera/ngrams/es/4gram'
+f = listdir(directorio)
+
+f = sorted(f)
+f = [join(directorio, file) for file in f if file.endswith('.csv')]
+con = my.connect(**con_data)
+cur = con.cursor()
+for archivo in f:
+    print(time.ctime(), "\n Empezando ", archivo)
+    lee_archivo(archivo, cur)
+    rename(archivo, archivo + '_done')

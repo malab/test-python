@@ -1,0 +1,143 @@
+adj + nf:a
+adj + nm:a
+adj + nmpl:a
+adj + prep:a
+adj inv m/f:a
+adj inv:a
+adj mf + prep:a
+adj mf:a
+adj:a
+adv + adj:r
+adv + conj:r
+adv + nm:r
+adv + prep:r
+adv + v cop:r
+adv + vtr:r
+adv:r
+gerundio:v
+grpo nom:n
+grupo nom pl:n
+grupo nom:n
+grupo nominal m:n
+grupo nominal:n
+grupo nomo:n
+gupo nom:n
+lco verb:v
+loc  adj:v
+loc  adv:v
+loc  prep:v
+loc  verb:v
+loc adj:a
+loc adv:r
+loc ajd:a
+loc nf:n
+loc nm:n
+loc nm:n
+loc nom  m:n
+loc nom + loc adv:n
+loc nom com.:n
+loc nom f:n
+loc nom f:n
+loc nom fpl:n
+loc nom m in:n
+loc nom m:n
+loc nom m:n
+loc nom m:n
+loc nom mf:n
+loc nom mpl:n
+loc nom pl:n
+loc non m:n
+loc verb + p:v
+loc verb + prep:v
+loc verb i:v
+loc verb:v
+loc verb:v
+lon nom m:n
+los adj:a
+los nom f:n
+los verb:v
+mf:n
+mf:n
+mn + adj:n
+mn + prep:n
+mnpl + adj:n
+mp:n
+n amb + adj:n
+n amb:n
+n as adj:n
+n común + adj:n
+n común inv:n
+n común pl:n
+n común:n
+n prop m:n
+n propio f:n
+n propio fpl:n
+n propio m:n
+n propio mf:n
+n propio mpl:n
+n:n
+nf + adj:n
+nf + prep:n
+nf +adj:n
+nf dim:n
+nf inv:n
+nf propio:n
+nf:n
+nfpl + adj:n
+nfpl:n
+nfpl:n
+nm + adj:n
+nm + afj:n
+nm + prep:n
+nm, mf:n
+nm, nf:n
+nm inv:n
+nm:n
+nmf:n
+nmpl + adj:n
+nmpl:n
+nmpl:n
+np:n
+npl:n
+onomat:
+p prnl:
+participio + prep:a
+participio:a
+proper n:n
+v cop + nf:v
+v cop + participio:v
+v cop:v
+v expr:v
+v impers:v
+v prnl + adj:v
+v prnl + adv:v
+v prnl + conj:v
+v prnl + pre:v
+v prnl + prep:v
+v prnl:v
+vi + adj:v
+vi + adv:v
+vi + pre:v
+vi + prep:v
+vi phrasal insep:v
+vi phrasal sep:v
+vi phrasal:v
+vi:v
+vprnl + loc nom:v
+vprnl:v
+vr:v
+vtr + adj:v
+vtr + adv:v
+vtr + art + nm + adj:v
+vtr + conj:v
+vtr + n:v
+vtr + nf:v
+vtr + nm:v
+vtr + prep:v
+vtr + pron:v
+vtr phrasal :v
+vtr phrasal insep:v
+vtr phrasal sep:v
+vtr:v
+vtr:v
+

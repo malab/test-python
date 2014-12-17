@@ -1,0 +1,145 @@
+En en SPS00 1 -
+la el DA0FS0 0.972269 -
+casa casa NCFS000 0.979058 03195485-n
+hay haber VMIP3S0 1 02603699-v
+dos 2 Z 0.991679 -
+perros perro NCMP000 1 02084071-n
+de de SPS00 0.999984 -
+Juan juan NP00SP0 1 06442239-n
+y y CC 0.999962 -
+cinco 5 Z 0.995868 -
+de de SPS00 0.999984 -
+Pedro pedro NP00O00 1 -
+. . Fp 1 -
+
+¿ ¿ Fia 1 -
+Cuántos cuánto DT0MP0 0.194969 -
+perros perro NCMP000 1 02084071-n
+hay haber VMIP3S0 1 02603699-v
+en en SPS00 1 -
+la el DA0FS0 0.972269 -
+casa casa NCFS000 0.979058 03195485-n
+? ? Fit 1 -
+
+Ayer ayer RG 0.567873 -
+compré comprar VMIS1S0 1 02207206-v
+dos 2 Z 0.991679 -
+kilos kilo NCMP000 1 13724582-n
+de de SPS00 0.999984 -
+garbanzos garbanzo NCMP000 1 -
+a a SPS00 0.996023 -
+cinco 5 Z 0.995868 -
+euros euro NCMP000 1 12095647-n
+cada cada DI0CS0 1 -
+uno uno PI0MS000 0.969022 -
+. . Fp 1 -
+
+¿ ¿ Fia 1 -
+Cuánto cuánto PT0MS000 0.698113 -
+me me PP1CS000 0.89124 -
+gasté gastar VMIS1S0 1 00388635-v
+? ? Fit 1 -
+
+En en SPS00 1 -
+casa casa NCFS000 0.979058 03195485-n
+tengo tener VMIP1S0 1 00056930-v
+dos 2 Z 0.991679 -
+perros perro NCMP000 1 02084071-n
+y y CC 0.999962 -
+tres 3 Z 1 -
+gatos gato NCMP000 1 02121620-n
+. . Fp 1 -
+
+¿ ¿ Fia 1 -
+Cuántos cuánto DT0MP0 0.194969 -
+animales animal NCMP000 0.992095 00015388-n
+tengo tener VMIP1S0 1 00056930-v
+en en SPS00 1 -
+casa casa NCFS000 0.979058 03195485-n
+? ? Fit 1 -
+
+En en SPS00 1 -
+casa casa NCFS000 0.979058 03195485-n
+tengo tener VMIP1S0 1 00056930-v
+tres 3 Z 1 -
+perros perro NCMP000 1 02084071-n
+, , Fc 1 -
+un uno DI0MS0 0.987295 -
+gato gato NCMS000 1 02121620-n
+, , Fc 1 -
+dos 2 Z 0.991679 -
+mesas mesa NCFP000 0.973497 04379243-n
+y y CC 0.999962 -
+un uno DI0MS0 0.987295 -
+televisor televisor NCMS000 1 04405907-n
+. . Fp 1 -
+
+¿ ¿ Fia 1 -
+Cuántos cuánto DT0MP0 0.194969 -
+animales animal NCMP000 0.992095 00015388-n
+tengo tener VMIP1S0 1 00056930-v
+en en SPS00 1 -
+casa casa NCFS000 0.979058 03195485-n
+? ? Fit 1 -
+
+Ayer ayer RG 0.567873 -
+pagué pagar VMIS1S0 1 00889740-v
+diez 10 Z 1 -
+euros euro NCMP000 1 12095647-n
+por por SPS00 1 -
+dos 2 Z 0.991679 -
+kilos kilo NCMP000 1 13724582-n
+de de SPS00 0.999984 -
+patatas patata NCFP000 1 05521514-n
+y y CC 0.999962 -
+un uno DI0MS0 0.987295 -
+kilo kilo NCMS000 1 13724582-n
+de de SPS00 0.999984 -
+tomates tomate NCMP000 1 -
+. . Fp 1 -
+
+Los el DA0MP0 0.976481 -
+tomates tomate NCMP000 1 -
+me me PP1CS000 0.89124 -
+costaron costar VMIS3P0 1 02628961-v
+cuatro 4 Z 1 -
+euros euro NCMP000 1 12095647-n
+. . Fp 1 -
+
+¿ ¿ Fia 1 -
+A a SPS00 0.996023 -
+cuánto cuánto PT0MS000 0.698113 -
+estaba estar VAII1S0 0.5 02655135-v
+el el DA0MS0 1 -
+kilo kilo NCMS000 1 13724582-n
+de de SPS00 0.999984 -
+patatas patata NCFP000 1 05521514-n
+? ? Fit 1 -
+
+Juan juan NP00SP0 1 06442239-n
+tiene tener VMIP3S0 1 00056930-v
+dos 2 Z 0.991679 -
+euros euro NCMP000 1 12095647-n
+más más RG 1 -
+que que CS 0.437483 -
+Pedro pedro NP00SP0 1 -
+. . Fp 1 -
+
+En en SPS00 1 -
+total total AQ0CS0 0.987805 00005205-a
+, , Fc 1 -
+Pedro pedro NP00SP0 1 -
+y y CC 0.999962 -
+Juan juan NP00SP0 1 06442239-n
+tienen tener VMIP3P0 1 00056930-v
+seis 6 Z 1 -
+euros euro NCMP000 1 12095647-n
+. . Fp 1 -
+
+¿ ¿ Fia 1 -
+Cuántos cuánto DT0MP0 0.194969 -
+euros euro NCMP000 1 12095647-n
+tiene tener VMIP3S0 1 00056930-v
+Pedro pedro NP00SP0 1 -
+? ? Fit 1 -
+
