@@ -11,7 +11,7 @@ from pprint import pprint
 
 #info on freebase
 # https://developers.google.com/freebase/v1/
-api_key = 'AIzaSyCEKLXRIysevTb5RtJbv8rHFF67B5VULpM'
+api_key = ''
 service_url = 'https://www.googleapis.com/freebase/v1/search'
 
 def bringNec(word):
